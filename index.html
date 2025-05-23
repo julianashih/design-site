@@ -17,14 +17,26 @@
     --spacing: 2rem;
 }
 
-html{
-text-align:center;
-margin-top:45px;
-color: var(--primary-color);
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-flexCont{
-display:flex;align-items:center;flex-direction:column;
+body {
+    text-align: center;
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+flexCont {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    padding-top: 45px;
 }
 
 sd15{display:block;width:100%;height:15px}
@@ -60,6 +72,14 @@ color: var(--accent-color);
 margin-bottom:10px;
 }
 
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
 </style>
 
 <flexCont>
@@ -76,8 +96,12 @@ Hi, I'm Juliana Shih, an artist and graphic designer originally from Taiwan, now
 </mediumText>
 
 
-<a target=_blank href='https://www.behance.net/julianashih/moodboards'>Behance</a>
+<a target=_blank href='https://www.behance.net/julianashih'>Behance</a>
 <a target=_blank href='https://www.instagram.com/julianashih_design'>Instagram</a>
 <a target=_blank href='https://www.linkedin.com/in/julianashih'>LinkedIn</a>
 
 </flexCont>
+
+<footer>
+    <p>© 2025 Juliana Shih. All rights reserved.</p>
+</footer>
